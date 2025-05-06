@@ -113,6 +113,10 @@ if menu == "Principal":
 elif menu == "Início":
     st.video("Aviao.mp4", start_time=0, format="mp4", loop=True)
     st.title("✈️ Previsão de Atraso na Decolagem")
+    st.markdown("""
+                Bem-vindo ao nosso sistema de previsão de atrasos em voos!
+                Este site utiliza **dados reais da ANAC** e um modelo de aprendizado de máquina treinado para estimar a **chance de um voo atrasar na decolagem**, com base em características como empresa aérea, número do voo e aeroporto de origem.
+                """)
 
 elif menu == "Estatísticas":
     st.title("📊 Estatísticas de Atrasos")
