@@ -184,7 +184,7 @@ elif menu == "Sobre o Modelo":
 
     O modelo prevê a **chance (%) de um voo sofrer atraso na decolagem**.
 
-    ⚡ Nosso objetivo é ajudar no planejamento de operações aéreas e melhorar a experiência dos passageiros!
+     Nosso objetivo é ajudar no planejamento de operações aéreas e melhorar a experiência dos passageiros!
     """)
 
 O modelo prevê a **chance (%) de um voo sofrer atraso na decolagem**.
