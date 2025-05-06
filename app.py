@@ -18,7 +18,7 @@ df = pd.read_csv("dados_tratados.csv")
 if 'atraso_decolagem' in df.columns:
     df['atraso'] = df['atraso_decolagem']
 else:
-    st.error("❌ A coluna 'atraso_decolagem' não foi encontrada na base de dados.")
+    st.error("A coluna 'atraso_decolagem' não foi encontrada na base de dados.")
     st.stop()
 
 # Menu lateral
@@ -184,10 +184,5 @@ elif menu == "Sobre o Modelo":
 
     O modelo prevê a **chance (%) de um voo sofrer atraso na decolagem**.
 
-     Nosso objetivo é ajudar no planejamento de operações aéreas e melhorar a experiência dos passageiros!
+    Nosso objetivo é ajudar no planejamento de operações aéreas e melhorar a experiência dos passageiros!
     """)
-
-O modelo prevê a **chance (%) de um voo sofrer atraso na decolagem**.
-
- Nosso objetivo é ajudar no planejamento de operações aéreas e melhorar a experiência dos passageiros!
-""")
